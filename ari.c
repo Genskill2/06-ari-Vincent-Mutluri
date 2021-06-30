@@ -36,8 +36,7 @@ string ari(string s)
      printf("%i\n",j-temp);
      
    int r = (int)(4.71 * (float)c/k + 0.5 * (float)k/j - 21.43) + 1;
-   
-   printf("%.i\n",(r));
+ 
    switch(r){
          case 1: ret = "kinder garten";
    break;
