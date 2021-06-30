@@ -1,5 +1,5 @@
 string ari(string s)
-  {
+{
   int c=0; // increases count of characters
   int k=0; // increases count of spaces
   int j=0; // increases count of sentences
@@ -20,16 +20,7 @@ string ari(string s)
     {
       j++;
     }
-    else if(s[i] =='(')
-    { 
-       for(int j=i;s[j]!=')';j++)
-       {
-         if(s[j] =='.' || s[j] == '?' || s[j] == '!')
-         {
-          temp++;
-         }
-       }
-    }
+   
   }
    /*printf("%i\n",c);
       printf("%i\n",k);
