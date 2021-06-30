@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <cs50.h>
+
 string ari(string s)
 {
   int c=0; // increases count of characters
@@ -26,7 +32,7 @@ string ari(string s)
       printf("%i\n",k);
      printf("%i\n",j-temp);*/
      
-   int r = (int)(4.71 * (float)c/k + 0.5 * (float)k/(j-temp) - 21.43) + 1;
+   int r = (int)(4.71 * (float)c/k + 0.5 * (float)k/(j) - 21.43) + 1;
  
    switch(r){
          case 1: ret = "kinder garten";
