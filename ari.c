@@ -31,11 +31,11 @@ string ari(string s)
        }
     }
   }
-   printf("%i\n",c);
+   /*printf("%i\n",c);
       printf("%i\n",k);
-     printf("%i\n",j-temp);
+     printf("%i\n",j-temp);*/
      
-   int r = (int)(4.71 * (float)c/k + 0.5 * (float)k/j - 21.43) + 1;
+   int r = (int)(4.71 * (float)c/k + 0.5 * (float)k/(j-temp) - 21.43) + 1;
  
    switch(r){
          case 1: ret = "kinder garten";
